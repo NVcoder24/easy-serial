@@ -74,6 +74,6 @@ my_serial.ignore_errors = True # False
 ```
 
 ## Other
-https://pypi.org/project/pyserial/
-https://pyserial.readthedocs.io/en/latest/pyserial.html
+https://pypi.org/project/pyserial/<br>
+https://pyserial.readthedocs.io/en/latest/pyserial.html<br>
 https://en.wikipedia.org/wiki/COM_(hardware_interface)
