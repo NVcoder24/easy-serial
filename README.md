@@ -15,7 +15,7 @@ import easy_serial
 
 port = "COM3"
 
-my_serial = easy_serial(port) # port, baudrate, timeout
+my_serial = easy_serial.EasySerial(port) # port, baudrate, timeout
 ```
 
 #### sending messages
@@ -24,7 +24,7 @@ import easy_serial
 
 port = "COM3"
 
-my_serial = easy_serial(port)
+my_serial = easy_serial.EasySerial(port)
 my_serial.write("Hello, world!")
 ```
 
@@ -34,7 +34,7 @@ import easy_serial
 
 port = "COM3"
 
-my_serial = easy_serial(port)
+my_serial = easy_serial.EasySerial(port)
 print(my_serial.read(10)) # reading 10 bytes from serial port
 ```
 
@@ -59,7 +59,7 @@ import easy_serial
 
 port = "COM3"
 
-my_serial = easy_serial(port)
+my_serial = easy_serial.EasySerial(port)
 my_serial.encoding = "ascii"
 ```
 
@@ -69,6 +69,6 @@ import easy_serial
 
 port = "COM3"
 
-my_serial = easy_serial(port)
+my_serial = easy_serial.EasySerial(port)
 my_serial.ignore_errors = True # False
 ```
